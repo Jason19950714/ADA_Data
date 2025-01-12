@@ -1,0 +1,24 @@
+Field	Description
+company_name	 name of fund companies (string)
+manager_name	 name of fund managers (string)
+female	 0 for male and 1 for female (int)
+manager_edu_num	" 0 for bachelor, 1 for master, and 2 for doctor (int)"
+experience_days	" working experience, unit - days (int)"
+aum_manager	 asset under management of managers (float)
+num_fund_manager_curr	 number of funds managed by managers currently (int)
+num_fund_manager_hist	 number of funds managed by managers currently and historically (int)
+company_name_short	 name of fund companies shortly (string)
+company_rank_aum	 rank of fund companies by AUM (int)
+aum_non_mmf	 asset under management of companies (excluding money market funds) (float)
+aum	 asset under management of companies
+num_funds	 number of funds in the company (int)
+num_managers	 number of fund managers in the company (int)
+avg_aum_manager	 average AUM of managers in the company (float)
+avg_num_manager	 average number of funds of managers in the company (float)
+company_duration	" duration of a company's existence, unit-days (int)"
+weighted_average_benchmark_rate	" NAV-weighted average benchmark rate of all funds managed by the manager, % (float)"
+weighted_average_excess_return	" NAV-weighted average excess return of all funds managed by the manager, % (float)"
+weighted_average_fee_total	" NAV-weighted average rate of total fee of all funds managed by the manager, % (float)"
+male_score	" facial attractiveness score assessed by males, higher <-> more beautiful (float)"
+female_score	" facial attractiveness score assessed by females, higher <-> more beautiful (float)"
+photo_urls	 url of photo in the website of AMAC (string)
